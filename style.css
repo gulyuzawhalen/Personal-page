@@ -29,6 +29,6 @@ main {
 }
 /*styling the image to have round corners*/
 
-image {
+img {
   border-radius: 50%;
 }
