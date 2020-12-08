@@ -14,7 +14,7 @@ header, footer {
   color: darkslategrey;
   margin: 5px;
   padding: 5px;
-  height: 12in;
+  width: 100%;
 }
 
 body {
@@ -24,7 +24,6 @@ body {
 
 main {
   background: lightgrey;
-  text-align: left;
   font-size: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: darkslategrey;
@@ -35,7 +34,5 @@ main {
 
 img {
   border-radius: 50%;
-  text-align: justify;
-  max-height: 70px;
-  max-width: 50px;
+  text-align: left;
 }
