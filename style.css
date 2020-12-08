@@ -16,6 +16,10 @@ header, footer {
   padding: 5px;
   height: 12in;
 }
+
+body {
+  width: 100%;
+}
 /*styling the main container*/
 
 main {
@@ -34,6 +38,6 @@ main {
 img {
   border-radius: 50%;
   text-align: justify;
-  max-height: 100px;
+  max-height: 70px;
   max-width: 50px;
 }
