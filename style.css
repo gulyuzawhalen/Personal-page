@@ -7,15 +7,15 @@ a:active {color: maroon;}
 /*styling both the header and the footer the same way*/
 
 header, footer {
-  background:rgb(173, 112, 112);
+  background: lavender;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 18px;
   text-align: center;
-  color: darkslategrey;
+  color: black;
   margin: 5px;
   padding: 5px;
   width: 100%;
-  height: 3in;
+  height: 1.5in;
 }
 
 body {
@@ -27,7 +27,7 @@ main {
   background: lightgrey;
   font-size: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: darkslategrey;
+  color: black;
   display: inline-block;
   width: 100%;
 }
