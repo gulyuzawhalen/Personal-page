@@ -31,7 +31,6 @@ main {
   display: inline-block;
   width: 100%;
 }
-/*styling the image to have round corners*/
 
 .group {
   display: flex;
@@ -46,6 +45,22 @@ main {
 
 .item-double {
   flex: 2;
+}
+
+form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: gray;
+  font-family: arial;
+}
+
+form textarea {
+  height: 4.75rem;
+  width: 100%;
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 
 @media all and (min-widgth=600px) {
