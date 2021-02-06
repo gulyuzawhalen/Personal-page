@@ -14,27 +14,68 @@
     </header>
     <!--main container has information about me and where to find me-->
     <main>
-      <img src="photo.jpg" width="200" alt="My picture from the time I worked as a temp at Google.">
-      <h3>Hi! My name is Gulyuza Whalen!</h3>
-      <p>I'm currently studying at Thinkful to be a software engineer.</p>
-      <p>I chose to be a software engineer for several reasons:</p>
-      <ul>
-        <li>I enjoy writing a code and seeing it live on the Internet;</li>
-        <li>It makes me happy to collaborate with like-minded people to achieve a common goal;</li>
-        <li>I appreciate the atmosphere of creativity at software companies.</li>
-      </ul>
-      <p>In my free from studying time I like to read fiction and knit to give my mind a break from mental work.</p>
-      <p>I'm located in Pittsburgh, PA!</p>
-
+      <section>
+      <div class="group">
+        <div class="item"><img src="photo.jpg" width="200" alt="My picture from the time I worked as a temp at Google."></div>
+          <div class="item-double"><h3>Hi! My name is Gulyuza Whalen!</h3>
+            <p>I'm currently studying at Thinkful to be a software engineer.</p>
+            <p>I'm very passionate about writing new apps and perfecting the user experience!</p>
+            <p>I'm located in Pittsburgh, PA!</p></div>
+        </section>
+        </div>
+      
+      <section>
+      <div class="group">
+        <div class="item-double">
+          <p>I chose to be a software engineer for several reasons:</p>
+          <ul>
+            <li>I enjoy writing a code and seeing it live on the Internet;</li>
+            <li>It makes me happy to collaborate with like-minded people to achieve a common goal;</li>
+            <li>I appreciate the atmosphere of creativity at software companies.</li>
+          </ul>
+          <p>In my free from studying time I like to read fiction and knit to give my mind a break from mental workload.</p></div>
+        <div class="item"><img src="collaboration.jpg" width="300" alt="Collaborative effort to create apps."></div>
+      </section>
+      </div>
+      
+      <section>
+      <div class="group">
+        <div class="item">
+          <img src="knitting.jpg" width="300" height="300" alt="Knitting party placeholder.">
+          <h3>Knitting Party.</h3>
+          <p>This is an app where avid knitters can exchange experiences and set up real-life and virtual knitting parties. I wrote JS, HTML and CSS files for it along with my collaborators.</p></div>
+        <div class="item">
+          <img src="reading.jpg" width="300" height="300" alt="Reading party placeholder.">
+          <h3>Reading party.</h3>
+          <p>This is an app for setting up real-life and virtual bookparties. I collaborated with my colleagues to hone in on the styling on the app.</p></div>
+        </section>
+      </div>
+        
+          
+          
+          
     <!--horizontal ruler to separate the contact information from main information-->
       <hr>
-
+      
+      <section>
       <h3>Contact me!</h3>
       <p>If you'd like to learn more about me and my software projects, feel free to contact me:</p>
       <ol>
         <li><a href="https://linkedin.com/in/gulyuza-whalen">LinkedIn</a></li>
         <li><a href="https://github.com/gulyuzawhalen">GitHub</a></li>
+        <li><form action="https://formspree.io/YOUR_EMAIL_HERE" method="post">
+          <label for="user-name">Name:</label>
+          <input id="user-name" type="text" name="name">
+
+          <label for="user-email">Email:</label>
+          <input id="user-email" type="text" name="email">
+
+          <label for="user-message">Message:</label>
+          <textarea id="user-message" name="message"></textarea>
+          <button type="submit">Submit</button>
+        </form></li>
       </ol>
+      </section>
     </main>
     <footer>
       <h4>Gulyuza Whalen</h4>
