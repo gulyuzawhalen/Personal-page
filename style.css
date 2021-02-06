@@ -34,7 +34,7 @@ main {
 
 .group {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
   width: 100%;
 }
 
@@ -70,7 +70,7 @@ form textarea {
   
   .group {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-bottom: 100px;
 }
 }
