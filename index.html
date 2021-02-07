@@ -11,10 +11,18 @@
     <header>
       <h1>Gulyuza Thinkful</h1>
       <h2>Software Engineer</h2>
+		<nav>
+			<ul id="menu">
+				<li><a href="home">Home</a></li>
+				<li><a href="about">About</a></li>
+				<li><a href="portfolio">Portfolio</a></li>
+				<li><a href="contact">Contact</a></li>
+			</ul>
+		</nav>
     </header>
     <!--main container has information about me and where to find me-->
     <main>
-      <section>
+      <section id="home">
       <div class="group">
         <div class="item"><img src="photo.jpg" width="200" alt="My picture from the time I worked as a temp at Google."></div>
           <div class="item-double"><h3>Intro</h3>
@@ -26,7 +34,7 @@
         </div>
         </section>
       
-      <section>
+      <section id="about">
       <div class="group">
         <div class="item-double"><h3>About Me</h3>
           <p>I chose to be a software engineer for several reasons:</p>
@@ -40,31 +48,33 @@
         </div>
         </section>
       
-      <section>
+      <section id="portfolio">
       <div class="group">
         <div class="item"><h3>My Projects</h3>
           <img src="knitting.jpg" width="300" height="300" alt="Knitting party placeholder.">
           <h3>Knitting Party.</h3>
           <p>This is an app where avid knitters can exchange experiences and set up real-life and virtual knitting parties.</p>
-          <p>I wrote JS, HTML and CSS files for it along with my collaborators.</p></div>
+          <p>I wrote JS, HTML and CSS files for it along with my collaborators.</p>
+        <a href="https://github.com/gulyuzawhalen/Personal-page">Link to App</a></div>
         <div class="item">
           <img src="reading.jpg" width="300" height="300" alt="Reading party placeholder.">
           <h3>Reading Party.</h3>
           <p>This is an app for setting up real-life and virtual book reading parties.</p>
-          <p>I collaborated with my colleagues to hone in on the styling on the app.</p></div>
+          <p>I collaborated with my colleagues to hone in on the styling on the app.</p>
+        <a href="https://github.com/gulyuzawhalen/Personal-page">Link to App</a></div>
       </div>
       </section>
              
     <!--horizontal ruler to separate the contact information from main information-->
       <hr>
       
-      <section>
+      <section id="contact">
       <h3>Contact me!</h3>
       <p>If you'd like to learn more about me and my software projects, feel free to contact me:</p>
       <ol>
         <li><a href="https://linkedin.com/in/gulyuza-whalen">LinkedIn</a></li>
         <li><a href="https://github.com/gulyuzawhalen">GitHub</a></li>
-        <li><a href="https://formspree.io/f/myybvlod">E-mail</li>
+        <li><a href="https://formspree.io/f/myybvlod">E-mail</a></li>
           <form action="https://formspree.io/f/myybvlod" method="post">
           <label for="user-name">Name:</label>
           <input id="user-name" type="text" name="name">
