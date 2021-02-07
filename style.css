@@ -51,7 +51,7 @@ form label {
   display: block;
   font-size: 18px;
   margin-bottom: 5px;
-  color: gray;
+  color: black;
   font-family: arial;
 }
 
@@ -63,7 +63,7 @@ form textarea {
   margin-bottom: 20px;
 }
 
-@media all and (min-widgth=600px) {
+@media all and (min-width=600px) {
   p {
     font-size: 16px;
   }
