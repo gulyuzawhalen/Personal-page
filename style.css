@@ -31,6 +31,11 @@ header nav ul {
   list-style: none;
 }
 
+header nav ul li a {
+  text-decoration: none;
+  margin: 0 20px 0 0;
+}
+
 body {
   width: 100%;
 }
@@ -77,6 +82,19 @@ form textarea {
 }
 
 @media all and (min-width=600px) {
+    header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  header h1 {
+    /* Sets 14 pixels of margin above and below the `h1` and sets 
+        0 pixels of margin to the left and right. */
+    margin: 14px 0;
+    /* Removes or sets 0 pixels of padding above the `h1`. */
+    padding-top: 0;
+  }
   p {
     font-size: 16px;
   }
