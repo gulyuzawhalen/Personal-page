@@ -18,6 +18,17 @@ header, footer {
   height: 1.5in;
 }
 
+/*styling the navigation tab*/
+header nav {
+  display: flex;
+  width: 100%;
+}
+
+header nav ul {
+  display: flex;
+  width: 100%
+}
+
 body {
   width: 100%;
 }
