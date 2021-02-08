@@ -56,7 +56,7 @@ main {
 
 .group {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
 }
 
@@ -92,7 +92,7 @@ form button {
 @media all and (min-width: 600px) {
   main {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   
     header {
@@ -112,7 +112,8 @@ form button {
   .group {
   display: flex;
   margin-bottom: 100px;
-  flex-direction: column;
+  flex-direction: row;
+  width: 100%;
 }
 }
   
