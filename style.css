@@ -101,9 +101,11 @@ form button {
   }
 
   header h1 {
+    display: flex;
     margin: 14px 0;
     padding-top: 0;
   }
+  
   p {
     font-size: 16px;
   }
