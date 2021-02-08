@@ -18,6 +18,10 @@ header, footer {
   height: 1.5in;
 }
 
+footer {
+  height: 0.75in;
+}
+
 /*styling the navigation tab*/
 header nav {
   display: flex;
@@ -81,7 +85,16 @@ form textarea {
   margin-bottom: 20px;
 }
 
-@media all and (min-width=600px) {
+form button {
+  text-align: left;
+}
+
+@media all and (min-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  
     header {
     display: flex;
     justify-content: space-between;
@@ -89,10 +102,7 @@ form textarea {
   }
 
   header h1 {
-    /* Sets 14 pixels of margin above and below the `h1` and sets 
-        0 pixels of margin to the left and right. */
     margin: 14px 0;
-    /* Removes or sets 0 pixels of padding above the `h1`. */
     padding-top: 0;
   }
   p {
