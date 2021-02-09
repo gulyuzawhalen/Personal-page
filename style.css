@@ -1,10 +1,42 @@
 /*using pseudo-code to change colors of the links when the user engages with them*/
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
 a:link {color: green;}
 a:visited {color: blue;}
 a:hover {color: darkmagenta;}
 a:active {color: maroon;}
 
 /*styling both the header and the footer the same way*/
+.home, .about, .contact, .work {
+  margin: 72px auto;
+  max-width: 900px;
+}
+
+.contact ul {
+  display: flex;
+  font-size: 18px;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  max-width: 900px;
+}
+
 
 header, footer {
   background: lavender;
@@ -12,7 +44,7 @@ header, footer {
   font-size: 18px;
   text-align: center;
   color: black;
-  margin: 5px;
+  /* margin: 5px; */
   padding: 5px;
   width: 100%;
   height: 1.5in;
@@ -31,6 +63,7 @@ header nav {
 
 header nav ul {
   display: flex;
+  justify-content: space-around;
   width: 100%;
   list-style: none;
 }
@@ -40,9 +73,7 @@ header nav ul li a {
   margin: 0 20px 0 0;
 }
 
-body {
-  width: 100%;
-}
+
 /*styling the main container*/
 
 main {
@@ -56,8 +87,8 @@ main {
 
 .group {
   display: flex;
-  flex-direction: row;
-  width: 100%;
+  flex-wrap: wrap;
+  /* width: 100%; */
 }
 
 .item {
@@ -69,6 +100,21 @@ main {
   flex: 2;
 }
 
+input, textarea {
+  display: block;
+  width: 50%;
+  margin-bottom: 12px;
+  padding: 12px;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* form {
+  margin-left: 15%;
+  margin-right:15%;
+  width: 70%;
+} */
+
 form label {
   display: block;
   font-size: 18px;
@@ -77,19 +123,57 @@ form label {
   font-family: arial;
 }
 
-form textarea {
+/* form textarea {
   height: 4.75rem;
   width: 50%;
   color: #000;
   font-size: 16px;
   margin-bottom: 20px;
-}
+} */
 
 form button {
   text-align: left;
 }
+@media (max-width: 768px){
+  body {
+    padding: 0;
+  }
 
-@media all and (min-width: 600px) {
+   .home, .about, .contact {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+}
+@media (max-width: 576px){
+  body {
+    font-size: 20px;
+  }
+
+  .contact ul {
+    font-size: 18px;
+  }
+  input, textarea {
+    /* display: block; */
+    width: 100%;
+    /* margin-bottom: 12px;
+    padding: 12px;
+    font-family: inherit;
+    font-size: inherit; */
+  }
+
+  .item {
+    text-align: center;
+  }
+
+  .item, .item-double {
+    flex: 100%;
+  }
+  .home, .about, .contact {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+/* @media all and (min-width: 600px) {
   main {
     display: flex;
   }
@@ -115,5 +199,5 @@ form button {
   margin-bottom: 100px;
   width: 100%;
 }
-}
+} */
   
